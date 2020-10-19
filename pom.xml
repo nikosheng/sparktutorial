@@ -65,8 +65,9 @@
     </dependencies>
 
     <build>
+        <sourceDirectory>src/main/scala</sourceDirectory>
+        <testSourceDirectory>src/main/scala</testSourceDirectory>
         <plugins>
-
             <!-- 在maven项目中既有java又有scala代码时配置 maven-scala-plugin 插件打包时可以将两类代码一起打包 -->
             <plugin>
                 <groupId>org.scala-tools</groupId>
