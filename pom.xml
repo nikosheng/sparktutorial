@@ -94,7 +94,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>spark.Accumulators</mainClass>
+                            <mainClass></mainClass>
                         </manifest>
                     </archive>
                 </configuration>
