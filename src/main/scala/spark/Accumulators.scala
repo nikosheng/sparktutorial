@@ -3,7 +3,7 @@ package spark
 import org.apache.spark.{SparkConf, SparkContext}
 
 object Accumulators {
-  val conf = new SparkConf().setAppName("Accumulators").setMaster("yarn")
+  val conf = new SparkConf().setAppName("Accumulators")
   val sc = new SparkContext(conf)
 
   val counter = sc.longAccumulator("counter")
